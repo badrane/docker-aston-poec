@@ -40,7 +40,7 @@ docker start mycontainer
 docker attach mycontainer
 #do a Ctrl-p et Ctrl-q
 docker ps
-docker stop et  docker rm or in one command docker rm -f 
+docker stop et  docker rm or in one command docker rm -f
 docker run -d --name mycontainer alpine
 ```
 ### Docker pause et unpause
@@ -65,7 +65,7 @@ docker rmi  $(docker images -q)
 ### See some changes inside a container
 ```shell
 docker run -it --name test ubuntu
-touch { abc,def,ghi}
+touch {abc,def,ghi}
 ls
 ls -alrt
 exit
